@@ -1,41 +1,90 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
-<div id="background">
-  <img src="https://i.imgur.com/7p5X0mu.jpg" class="stretch" alt="">
-</div>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 
-<header id="header">
-  <img src="https://i.ibb.co/MNVhyTW/logos-22-141-2.jpg" alt="VD-logo" border="0" id="header-img" width="300px">
-<nav>
-  <a class="nav-link" href="#shop">Shop</a> &nbsp; &nbsp; &nbsp;
-  <a class="nav-link" href="#portfolio">Portfolio</a> &nbsp; &nbsp; &nbsp;
-  <a class="nav-link" href="#mystory">My Story</a> &nbsp; &nbsp;
-</nav>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<header id="header" class="header-section">
+  <nav id="nav-bar" class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+    <div class="container">
+      <a href="#" class="navbar=brand">
+        <img src="https://github.com/neel6762/Free-Code-Camp-Prdocuct-Landing-Page-/blob/master/src/img/header-img.png?raw=true" atl="#logoImg" height="50" width="50">
+        <h3 class="d-inline align-middle">Scoops</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#service" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Connect</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+
 </header>
+<!-- Landing Page -->
 
-<body>
-  <div id="shop-text" style="width:100%; height:auto; overflow:hidden">
-    <img src="https://i.imgur.com/DA4vuYN.jpg" alt="iVudang Shop" width="100%">
+<section class="landing-page">
+  <div class="container text-white main-section-text">
+    <p class="h3 font-weight-light text-center">Scooping Happiness To Life</p>
+    <h2 class="display-2 s-size text-center"><small class="lead display-4">visit</small>- SCOOPS</h2>
+
+    <div class="bg-dark mt-5 p-3 text-center">
+      <label for="getupdates">Get Notified For Discounts And New Menu Items !</label>
+      <form id="form">
+        <div class="input-group mb-2 align-center">
+          <div class="input-group-prepend">
+            <div class="input-group-text">@</div>
+          </div>
+          <input type="email" class="form-control" placeholder="Username">
+          <a href="https://www.freecodecamp.com/email-submit">
+            <button class="btn btn-outline-light ml-4 mr-auto" id="submit">
+              <i class="far fa-paper-plane"></i>Subscribe</button>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Menu -->
+
+<section class="py-2 mt-3" id="menu">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h2 font-weight-light s-size text-center p-1">
+          WE SERVE WORLD CLASS
+        </p>
+        <p class="lead text-center">HAVE A LOOK</p><hr class="bt-dark">
+      </div>
+    </div>
+    <div class="card-columns">
+      <div class="card">
+        <img src="https://github.com/neel6762/Free-Code-Camp-Prdocuct-Landing-Page-/blob/master/src/img/choclatecard.jpg?raw=true" alt="chocolate" class="card-img-top">
+
+      </div>
+
+    </div>
   </div>
 
-  <section id="shop">
-    <a id="iVudang_header" target="_blank" href="https://codepen.io/iVuDang"><h2>Phone Apps</h2></a>
-    <a id="iVudang_header" target="_blank" href="https://codepen.io/iVuDang"><h2>Affiliates</h2></a>
-    <a id="iVudang_header" target="_blank" href="https://codepen.io/iVuDang"><h2>Merchandise</h2></a>
-  </section>
-
-  <section id="portfolio">
-    <div id="youtube-logo" align="center" style="width:100%; height:auto; overflow:hidden">
-      <a id="iVudang_YouTube_a" target="_blank" href="https://www.youtube.com/user/iVuDang">
-        <img src="https://pngimg.com/uploads/youtube/youtube_PNG2.png" alt="youtube-logo" width="10%">
-      </a>
-      <h2>YouTube Videos</h2>
-      <p>See my videos on youtube.com/iVudang</p>
-    </div>
-
-    <div id="phone-logo" align="center" style="width:100%; height:auto; overflow:hidden">
-
-    </div>
-
-  </section>
-</body>
+</section>
