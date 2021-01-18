@@ -3,7 +3,9 @@ body {
 }
 .landing-page {
   background: linear-gradient(#eeecec33,rgba(109, 8, 88, 0.51)),
-  url(https://images.unsplash.com/photo-1469533667357-006056eaf780?ixlib=rb-0.3.5&s=37b9a32…&auto=format&fit=crop&w=1050&q=80);
+  /* url(https://wallup.net/wp-content/uploads/2016/01/33857-Blackboard-space-universities-universe-science-A_Serious_Man-chalkboard-nebula-mathematics-physics-students-748x468.jpg); */
+/* url(https://www.echosciences-grenoble.fr/uploads/article/image/attachment/1005410904/xl_1_XNaFJmxq_EYvUYpvja4mSw.jpeg); */
+url(https://external-preview.redd.it/DT5V7t7BsMX3cz4pr7MUcSTq_Tcxm34EPhXG51clyow.jpg?auto=webp&s=f5f917b909098fe137f7f706d31466b2b98f42c8);
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
